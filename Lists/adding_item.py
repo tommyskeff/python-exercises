@@ -6,7 +6,9 @@
 #  without typing anything).
 # Then print out the new list, one item per line
 
-colours, running = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"], True
+COLOURS = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+
+colours, running = COLOURS, True
 while running:
     colour = input("Enter colour: ")
     if colour:
