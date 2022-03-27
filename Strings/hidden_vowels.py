@@ -6,7 +6,7 @@
 #  eg entering "Forfar Athletic"
 #  returns "F*rf*r *thl*t*c"
 
-VOWELS = ["a", "e", "i", "o", "u"]
+VOWELS = "aeiou"
 
 string = input("Enter a string: ")
-print("".join("*" if char in VOWELS else char for char in string))
+print("".join("*" if char.lower() in VOWELS else char for char in string))
