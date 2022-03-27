@@ -3,8 +3,8 @@
 # The output should be that string
 #  with every vowel replaced with
 #  an asterisk.
-#  eg entering 'Forfar Athletic'
-#  returns 'F*rf*r *thl*t*c'
+#  eg entering "Forfar Athletic"
+#  returns "F*rf*r *thl*t*c"
 
 VOWELS = ["a", "e", "i", "o", "u"]
 
